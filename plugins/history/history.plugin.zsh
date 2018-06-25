@@ -2,7 +2,7 @@ alias h='history'
 
 function hs
 {
-    history | grep $*
+    history | ag $*
 }
 
-alias hsi='hs -i'
+alias hsi='hs -h'
